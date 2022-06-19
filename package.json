@@ -6,6 +6,7 @@
   "scripts": {
     "start:prod": "tsc --p configs/tsconfig.json && node ./build/index.js",
     "start:dev": "cls && nodemon --config ./configs/nodemon.json",
+    "start:multi": "tsc --p configs/tsconfig.multi.json && node ./build/multi-app.js",
     "test": "jest"
   },
   "repository": {
