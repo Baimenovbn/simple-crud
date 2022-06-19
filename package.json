@@ -1,0 +1,40 @@
+{
+  "name": "simple-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "tsc --p configs/tsconfig.json && node ./build/index.js",
+    "start:dev": "cls && nodemon --config ./configs/nodemon.json",
+    "start:multi": "tsc --p configs/tsconfig.multi.json && node ./build/multi-app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baimenovbn/simple-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baimenovbn/simple-crud/issues"
+  },
+  "homepage": "https://github.com/Baimenovbn/simple-crud#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.2",
+    "@types/node": "^18.0.0",
+    "@types/supertest": "^2.0.12",
+    "@types/uuid": "^8.3.4",
+    "dotenv": "^16.0.1",
+    "jest": "^28.1.1",
+    "node": "^16.13.2",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
