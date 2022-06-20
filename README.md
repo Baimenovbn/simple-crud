@@ -27,7 +27,6 @@ npm run start:dev
 npm run start:multi
 ```
 
-- Content-Type: application/json
 
 ## Implementation details
 
@@ -57,6 +56,10 @@ npm run start:multi
 - `username` — user's name (`string`, **required**)
 - `age` — user's age (`number`, **required**)
 - `hobbies` — user's hobbies (`array` of `strings` or empty `array`, **required**)
+
+3. Headers:
+
+* Content-Type: application/json
 
 ## Testing
 
